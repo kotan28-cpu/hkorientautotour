@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Přihláška na H&K ORIENT AUTO TOUR">
+<title>H&K ORIENT AUTO TOUR — Přihláška</title>
+<style>
+:root{--gold:#ffbf24;--bg:#06090d;--panel:rgba(8,10,12,.94);--line:#33383e}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:#fff;font-family:Arial,Helvetica,sans-serif}
+body:before{content:"";position:fixed;inset:0;background:radial-gradient(circle at 50% 10%,#1b2027 0,#090c10 45%,#030405 100%);z-index:-2}
+body:after{content:"";position:fixed;inset:0;background:rgba(0,0,0,.25);z-index:-1}
+.page{max-width:1400px;margin:auto;padding:24px 28px 42px}
+.top{display:flex;justify-content:flex-end;gap:28px;text-transform:uppercase;letter-spacing:.35em;font-size:12px;color:#ddd;margin:6px 0 24px}
+.layout{display:grid;grid-template-columns:1.15fr .85fr;gap:42px;align-items:start}
+.hero{padding:10px 15px 0}.logo{display:block;width:min(390px,75%);margin:0 auto 18px;filter:drop-shadow(0 10px 22px #000)}.logo-mark{width:min(390px,75%);margin:0 auto 18px;text-align:center;border:3px solid var(--gold);padding:18px 10px 12px;border-radius:50%;box-shadow:0 10px 35px #000;background:#0a0d11}.logo-mark div{font-size:72px;font-weight:900;letter-spacing:-.06em;line-height:.9}.logo-mark span{display:block;margin-top:8px;color:var(--gold);font-weight:900;letter-spacing:.18em;font-size:14px}
+h1{font-size:clamp(42px,5vw,72px);line-height:.94;text-transform:uppercase;margin:0;text-align:center;font-weight:900;letter-spacing:.02em}
+h1 span{color:var(--gold)}.tag{text-align:center;letter-spacing:.42em;font-size:18px;margin:18px 0 38px;color:#eee}
+.details{display:flex;justify-content:center;gap:50px;flex-wrap:wrap;font-size:22px;font-weight:700}.details b{color:var(--gold);margin-right:8px}.small{font-size:13px;color:#aaa;margin-top:6px;font-weight:400}
+.card{background:var(--panel);border:1px solid #41464c;border-radius:18px;padding:28px;box-shadow:0 25px 70px #000}
+.card h2{text-align:center;font-size:38px;margin:0 0 4px}.sub{text-align:center;color:var(--gold);letter-spacing:.35em;font-size:13px;margin-bottom:22px}
+label{display:block;font-size:13px;color:#ddd;font-weight:700;margin:15px 0 7px}
+input,textarea{width:100%;padding:14px;background:#20242a;border:1px solid #444b52;border-radius:8px;color:#fff;font-size:16px}
+textarea{min-height:130px;resize:vertical}.terms{border:1px solid #3e444a;border-radius:9px;background:#171b20;padding:14px;height:205px;overflow:auto;color:#ddd;font-size:13px;line-height:1.5}
+.check{display:flex;gap:10px;align-items:flex-start;margin-top:14px;font-weight:400;font-size:14px}.check input{width:19px;flex:none;margin-top:2px}
+button{width:100%;margin-top:20px;padding:17px;border:0;border-radius:9px;background:var(--gold);color:#090909;font-size:17px;font-weight:900;letter-spacing:.06em;cursor:pointer}button:hover{filter:brightness(1.08)}
+.note{text-align:center;color:#aaa;font-size:12px;margin-top:15px}.success{display:none;margin-top:16px;padding:13px;border-radius:9px;background:#173522;color:#c9f4d7;text-align:center}
+footer{margin-top:40px;text-align:center;border-top:1px solid #333;padding-top:20px;color:#aaa;font-size:13px}
+@media(max-width:900px){.top{justify-content:center;letter-spacing:.18em}.layout{grid-template-columns:1fr}.hero{padding-top:0}.logo{width:min(330px,80%)}}
+@media(max-width:560px){.page{padding:15px}.card{padding:20px}.details{gap:20px;font-size:18px}.tag{letter-spacing:.22em;font-size:14px}.top{display:none}h1{font-size:40px}}
+</style>
+</head>
+<body>
+<div class="page">
+<nav class="top">AUTA <span>|</span> LIDÉ <span>|</span> ZÁŽITKY <span>|</span> NOVÁ MÍSTA</nav>
+<main class="layout">
+<section class="hero">
+<div class="logo-mark" aria-label="H&K ORIENT AUTO TOUR logo"><div>H&amp;K</div><span>ORIENT AUTO TOUR</span></div>
+<h1>H&amp;K <span>ORIENT</span> AUTO TOUR</h1>
+<div class="tag">CESTA, KTERÁ SPOJUJE</div>
+<div class="details">
+<div>📅 14. 11. 2026</div>
+<div>📍 Knajpa Svrčovec<div class="small">49.4251520N, 13.2452363E</div></div>
+</div>
+</section>
+<section class="card">
+<h2>PŘIHLÁŠKA</h2><div class="sub">H&amp;K ORIENT AUTO TOUR</div>
+<form id="form" action="https://formsubmit.co/hkoat26@gmail.com" method="POST">
+<input type="hidden" name="_subject" value="Nová přihláška — H&K ORIENT AUTO TOUR">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_template" value="table">
+<label>Jméno a příjmení *</label><input name="Jméno a příjmení" required placeholder="Zadejte jméno a příjmení">
+<label>Vůz *</label><input name="Vůz" required placeholder="Značka, model">
+<label>SPZ *</label><input name="SPZ" required placeholder="Např. 1A2 3456">
+<label>Kontaktní údaje *</label><input name="Kontakt" required placeholder="Telefon / E-mail">
+<label>Podmínky účasti</label>
+<div class="terms">
+1. Účast na H&amp;K ORIENT AUTO TOUR je dobrovolná a každý účastník se účastní na vlastní odpovědnost.<br><br>
+2. Každý účastník je plně odpovědný za své vozidlo, jeho technický stav, bezpečnost, vybavení a způsobilost k provozu na pozemních komunikacích.<br><br>
+3. Účastník odpovídá za škody způsobené svým vozidlem, a to na majetku třetích osob i na samotném vozidle.<br><br>
+4. Pořadatel nenese odpovědnost za poškození, ztrátu nebo odcizení vozidla ani osobních věcí, pokud škoda nebyla způsobena prokazatelným zaviněním pořadatele.<br><br>
+5. Účastník je povinen dodržovat platné právní předpisy, pravidla silničního provozu a pokyny pořadatele.<br><br>
+6. Účastník se zavazuje chovat ohleduplně k ostatním účastníkům, veřejnosti, majetku a životnímu prostředí.<br><br>
+7. Odesláním přihlášky účastník potvrzuje, že se s podmínkami seznámil, rozumí jim a souhlasí s nimi.
+</div>
+<label class="check"><input type="checkbox" name="Souhlas s podmínkami" value="ANO" required><span>Souhlasím s podmínkami účasti a potvrzuji, že uvedené údaje jsou pravdivé a aktuální. *</span></label>
+<button type="submit">✈ ODESLAT PŘIHLÁŠKU</button>
+</form>
+<div class="success" id="success">Děkujeme! Přihláška byla úspěšně odeslána.</div>
+<div class="note">Vaše údaje budou odeslány na hkoat26@gmail.com a použity pouze pro účely této akce.</div>
+</section>
+</main>
+<footer>NOVÉ TRASY &nbsp; • &nbsp; SKVĚLÁ PARTA &nbsp; • &nbsp; NEZAPOMENUTELNÉ ZÁŽITKY</footer>
+</div>
+<script>
+const form=document.getElementById('form');
+form.addEventListener('submit',async e=>{
+ e.preventDefault();
+ try{
+  const r=await fetch(form.action,{method:'POST',body:new FormData(form),headers:{Accept:'application/json'}});
+  if(!r.ok) throw new Error();
+  form.style.display='none';document.getElementById('success').style.display='block';
+ }catch(err){form.submit();}
+});
+</script>
+</body></html>
